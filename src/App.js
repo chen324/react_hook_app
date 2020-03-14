@@ -14,7 +14,6 @@ function App() {
   function menuHide(){
     setShowMenu(false);
   }
-  console.log(1);
   return (
     <BrowserRouter>
       <div>
