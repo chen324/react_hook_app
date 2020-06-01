@@ -22,6 +22,7 @@ export default function works(state={
         ...state,
         loadEnd: true
       };
+      default: break;
   }
   return state
 }

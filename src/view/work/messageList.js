@@ -3,7 +3,7 @@ import { connect } from "react-redux";
 import ToDate from "../../common/component/toDate";
 
 function MessageListView(props){
-  
+  console.log(props);
   let {messageList,loadEnd,loading} = props;
   return (<div>
     <ul className="comment_list">

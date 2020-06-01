@@ -27,7 +27,7 @@ function Lecturer(props) {
     data[i]&&newArr.push(data[i]);
     data[i+1]&&newArr.push(data[i+1]);
     data[i+2]&&newArr.push(data[i+2]);
-    // for(let j=0;j<end;j++){
+    // for(let j=i;j<end;j++){
     //   newArr.push(data[j]);
     // }
     newData.push(newArr);

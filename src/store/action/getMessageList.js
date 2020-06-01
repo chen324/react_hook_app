@@ -5,7 +5,7 @@ export default function getMessageList(id){
       type: "MESSAGE_LOAD"
     })
     let {page} = getState().messageList;
-    return http.post(`/lecturer/getcomment?page=1&rows=20`,{
+    return http.post(`/lecturer/getcomment?page=${page}&rows=20`,{
       article_id: id
     }).then(res=>{
       if(!res.data.length){
