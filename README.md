@@ -1,45 +1,45 @@
-###########环境依赖
-"axios": "^0.19.0",
-"better-scroll": "^1.15.2",
-"http-proxy-middleware": "^0.20.0",
-"proxy": "^0.2.4",
-"qs": "^6.9.0",
-"react": "^16.9.0",
-"react-dom": "^16.9.0",
-"react-redux": "^7.1.1",
-"react-router-dom": "^5.0.1",
-"react-scripts": "3.1.2",
-"redux": "^4.0.4",
-"redux-thunk": "^2.3.0"
+###########环境依赖 
+"axios": "^0.19.0", 
+"better-scroll": "^1.15.2", 
+"http-proxy-middleware": "^0.20.0", 
+"proxy": "^0.2.4", 
+"qs": "^6.9.0", 
+"react": "^16.9.0", 
+"react-dom": "^16.9.0", 
+"react-redux": "^7.1.1", 
+"react-router-dom": "^5.0.1", 
+"react-scripts": "3.1.2", 
+"redux": "^4.0.4", 
+"redux-thunk": "^2.3.0" 
 
-###########部署步骤
-1.利用脚手架创建项目 create-react-app reactapp
-
-2.npm install // 安装node运行环境
-
-3.cd reactapp // 进入项目
-
-4.yarn start(npm start) // 运行项目
-
-###########目录结构描述
-│  .gitignore
-│  package-lock.json        // 环境依赖具体信息
-│  package.json             // 环境依赖
-│  README.md                // help
-│  yarn.lock
-│  
-├─.vscode
-│      settings.json
-│      
-├─public
-│      favicon.ico
-│      index.html           // 项目入口
-│      logo192.png
-│      logo512.png
-│      manifest.json
-│      robots.txt
-│      
-└─src
+###########部署步骤 
+1.利用脚手架创建项目 create-react-app reactapp 
+ 
+2.npm install // 安装node运行环境 
+ 
+3.cd reactapp // 进入项目 
+ 
+4.yarn start(npm start) // 运行项目 
+ 
+###########目录结构描述 
+│  .gitignore 
+│  package-lock.json        // 环境依赖具体信息 
+│  package.json             // 环境依赖 
+│  README.md                // help 
+│  yarn.lock 
+│   
+├─.vscode 
+│      settings.json 
+│       
+├─public 
+│      favicon.ico 
+│      index.html           // 项目入口 
+│      logo192.png 
+│      logo512.png 
+│      manifest.json 
+│      robots.txt 
+│       
+└─src 
     │  App.js               // 主组件
     │  index.js             // 组件入口
     │  serviceWorker.js
